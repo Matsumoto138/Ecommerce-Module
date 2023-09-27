@@ -10,6 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .Questions{
@@ -67,4 +68,104 @@ body{
 .Buttons button:hover{
     background-color: rgb(24, 24, 24);
     color: white;
+}
+
+.Steps{
+    width: 80px;
+    display: flex;
+    margin: 2rem auto;
+}
+
+.progress-step{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: rgb(220, 220, 220);
+}
+
+.progress-step-active{
+    background-color: black;
+}
+
+.swiper{
+    width: 400px;
+
+}
+
+.product-image-wrapper{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper img{
+    width: 300px;
+    
+}
+
+.swiper-slide{
+    margin: 3rem 0;
+}
+
+.product-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.product-old-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: black !important;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: black !important;
+}
+
+.view-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 30px;
+    margin: 0.5rem auto;
+    background-color: rgb(24, 24, 24);
+    border: 1px solid rgb(24, 24, 24);
+    color: white;
+    font-size: 16px;
+    padding: 0.5rem 0;
+    border-radius: 20px;
+    transition: 0.2s all ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.view-button:hover{
+    background-color: white;
+    color: rgb(24, 24, 24);
+}
+
+@media screen and (max-width: 500px) {
+    .swiper-slide{
+        width: 100%;
+    }
+
+    .product-title{
+        width: 80%;
+        margin: 1rem auto;
+    }
 }

@@ -6,10 +6,11 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     
 </head>
 <body>
-    <div class="Container">
+    <div class="Container" id="first-container">
         <div class="Questions" id="question-container">
             
         </div>
@@ -17,8 +18,20 @@
             <button id="prvBtn"> < previous</button>
             <button id="nextBtn">next ></button>
         </div>
-        <div class="Steps"></div>
+        <div class="Steps">
+            <div class="progress-step progress-step-active"></div>
+            <div class="progress-step"></div>
+            <div class="progress-step"></div>
+            <div class="progress-step"></div>
+        </div>
+    </div>
+    <div class="Container" id="second-container">
+
     </div>
 </body>
 <script src='script.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    
+</script>
 </html>
